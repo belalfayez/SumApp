@@ -20,5 +20,15 @@ fun main(args: Array<String>) {
     println("You entered $x")
     val y = scr.nextInt()
     println("You entered $y")
-
+    val waitingMsg = "Here we are coming to the last point, waiting...  "
+    println(waitingMsg)
+    val sum = x + y
+    when{
+        (sum %2) ==0  ->{
+            println("your sum is even number, here you are $sum")
+        }
+        (sum %2) !=0 ->{
+            println("your sum is odd number, here you are $sum")
+        }
+    }
 }
