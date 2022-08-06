@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
         (sum %2) ==0  ->{
             println("your sum is even number, here you are $sum")
         }
-        (sum %2) !=0 ->{
+        (sum %2) >0 ->{
             println("your sum is odd number, here you are $sum")
         }
     }
