@@ -12,7 +12,13 @@ fun main(args: Array<String>) {
     //step one take an input from user
     val scr = Scanner(System.`in`)
     val name = scr.nextLine()
-    println("Welcome " + name + "to the project" )
+    println("Welcome $name to the project" )
 
+    // step 2 take 2 numbers from user.
+    println("kindly give us to numbers and you will get your sum!")
+    val x = scr.nextInt()
+    println("You entered $x")
+    val y = scr.nextInt()
+    println("You entered $y")
 
 }
